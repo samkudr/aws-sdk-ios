@@ -559,6 +559,7 @@
 		21C9132A2667D70F00233AF9 /* MockCredentialsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C913292667D70F00233AF9 /* MockCredentialsProvider.swift */; };
 		21E97D472558DBFF004C98D6 /* AsynchronousOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E97D462558DBFF004C98D6 /* AsynchronousOperation.swift */; };
 		5C1590172755727C00F88085 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0D416D1C6A66E5006B91B5 /* AWSCore.framework */; };
+		56296D5E273D654F00D5727C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56296D5D273D654F00D5727C /* CoreTelephony.framework */; };
 		5C1978DD2702364800F9C11E /* AWSLocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1978DC2702364800F9C11E /* AWSLocationTests.swift */; };
 		6BE9D6AA25A54EBA00AB5C9A /* AWSIotDataManagerRetainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE9D6A925A54EBA00AB5C9A /* AWSIotDataManagerRetainTests.swift */; };
 		6BE9D74025A6D52100AB5C9A /* MQTTStatusCallBackWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE9D73F25A6D52100AB5C9A /* MQTTStatusCallBackWrapper.swift */; };
@@ -3087,6 +3088,7 @@
 		21C913262667CD4B00233AF9 /* AWSServiceConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSServiceConfigurationTests.swift; sourceTree = "<group>"; };
 		21C913292667D70F00233AF9 /* MockCredentialsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCredentialsProvider.swift; sourceTree = "<group>"; };
 		21E97D462558DBFF004C98D6 /* AsynchronousOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousOperation.swift; sourceTree = "<group>"; };
+		56296D5D273D654F00D5727C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
 		5C1978DB2702364800F9C11E /* AWSLocationTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AWSLocationTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		5C1978DC2702364800F9C11E /* AWSLocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSLocationTests.swift; sourceTree = "<group>"; };
 		6BE9D6A925A54EBA00AB5C9A /* AWSIotDataManagerRetainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AWSIotDataManagerRetainTests.swift; sourceTree = "<group>"; };
@@ -5018,6 +5020,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C1590172755727C00F88085 /* AWSCore.framework in Frameworks */,
+				56296D5E273D654F00D5727C /* CoreTelephony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5255,6 +5258,7 @@
 		17E6B467209BB99A0079B286 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				56296D5D273D654F00D5727C /* CoreTelephony.framework */,
 				FA1C5A392539E8FB00DBC24C /* XCTest.framework */,
 				B5A0263622F025E0001C75CE /* libOCMock.a */,
 				B5DD455D22CA6AC9003871AE /* libOCMock.a */,
